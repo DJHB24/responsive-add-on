@@ -18,7 +18,7 @@ body {
 }
 
 .img-responsive {
-  width: 100px;
+  width: 300px;
   display: block;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .embed {
-  width: 100%;
+  width: 300px;
   aspect-ratio: 1 /1;
 }
 
