@@ -14,11 +14,11 @@ body {
 
 .grid {
   display: grid;
-  grid-gap: 5px;
+  grid-gap: 64px;
 }
 
 .img-responsive {
-  width: 300px;
+  width: 100%;
   display: block;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .embed {
-  width: 300px;
+  width: 100%;
   aspect-ratio: 1 /1;
 }
 
@@ -83,9 +83,7 @@ section {
 section.secondary {
   background: #f8f8f8;
 }
-section.tertiary {
-  background: ##D5C6E0;
-}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/lisbon.png");
